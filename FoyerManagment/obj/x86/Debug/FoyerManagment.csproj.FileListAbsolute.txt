@@ -1,0 +1,38 @@
+C:\Users\hp\AppData\Local\Temporary Projects\FoyerManagment\bin\Debug\FoyerManagment.exe
+C:\Users\hp\AppData\Local\Temporary Projects\FoyerManagment\bin\Debug\FoyerManagment.pdb
+C:\Users\hp\AppData\Local\Temporary Projects\FoyerManagment\obj\x86\Debug\FoyerManagment.Properties.Resources.resources
+C:\Users\hp\AppData\Local\Temporary Projects\FoyerManagment\obj\x86\Debug\FoyerManagment.csproj.GenerateResource.Cache
+C:\Users\hp\AppData\Local\Temporary Projects\FoyerManagment\obj\x86\Debug\FoyerManagment.exe
+C:\Users\hp\AppData\Local\Temporary Projects\FoyerManagment\obj\x86\Debug\FoyerManagment.pdb
+C:\Users\hp\AppData\Local\Temporary Projects\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_Main.resources
+C:\Users\hp\AppData\Local\Temporary Projects\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_SignIn.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.exe
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.pdb
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\bin\Debug\FoyerManagment.exe
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\bin\Debug\FoyerManagment.pdb
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_Main.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_SignIn.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.Properties.Resources.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.csproj.GenerateResource.Cache
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_ChangePassword.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_NewTenant.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_TenantManagment.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_NewRoom.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_RoomManagment.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_RoomDetails.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_RDetails.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.csprojResolveAssemblyReference.cache
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_BlackList.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_BlackListManag.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_NewReservation.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_addTenantForRoom.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_ElecBillPay.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_LeaveRoom.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_BillReports.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_RoomStatus.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_RepRoomWithTen.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_RepEndDecade.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_RepTenantInFoyer.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_RepTenRoom.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_TenantWithNet.resources
+C:\Users\hp\documents\visual studio 2010\Projects\FoyerManagment\FoyerManagment\obj\x86\Debug\FoyerManagment.FRM_About.resources

@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16C7A04D-C1C0-4F12-A232-5D684F00D157}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FoyerManagment</RootNamespace>
+    <AssemblyName>FoyerManagment</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FRM_About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_About.Designer.cs">
+      <DependentUpon>FRM_About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_addTenantForRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_addTenantForRoom.Designer.cs">
+      <DependentUpon>FRM_addTenantForRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_BillReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_BillReports.Designer.cs">
+      <DependentUpon>FRM_BillReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_BlackList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_BlackList.Designer.cs">
+      <DependentUpon>FRM_BlackList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_BlackListManag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_BlackListManag.Designer.cs">
+      <DependentUpon>FRM_BlackListManag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_CatchMoneyRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_CatchMoneyRoom.Designer.cs">
+      <DependentUpon>FRM_CatchMoneyRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_ChangePassword.Designer.cs">
+      <DependentUpon>FRM_ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_ElecBillPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_ElecBillPay.Designer.cs">
+      <DependentUpon>FRM_ElecBillPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_LeaveRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_LeaveRoom.Designer.cs">
+      <DependentUpon>FRM_LeaveRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Main.Designer.cs">
+      <DependentUpon>FRM_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_NewReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_NewReservation.Designer.cs">
+      <DependentUpon>FRM_NewReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_NewRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_NewRoom.Designer.cs">
+      <DependentUpon>FRM_NewRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_NewTenant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_NewTenant.Designer.cs">
+      <DependentUpon>FRM_NewTenant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Other.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Other.Designer.cs">
+      <DependentUpon>FRM_Other.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RDetails.Designer.cs">
+      <DependentUpon>FRM_RDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RepEndDecade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RepEndDecade.Designer.cs">
+      <DependentUpon>FRM_RepEndDecade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RepMotor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RepMotor.Designer.cs">
+      <DependentUpon>FRM_RepMotor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RepOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RepOther.Designer.cs">
+      <DependentUpon>FRM_RepOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RepRoomWithTen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RepRoomWithTen.Designer.cs">
+      <DependentUpon>FRM_RepRoomWithTen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RepTenantInFoyer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RepTenantInFoyer.Designer.cs">
+      <DependentUpon>FRM_RepTenantInFoyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RepTenRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RepTenRoom.Designer.cs">
+      <DependentUpon>FRM_RepTenRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RoomDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RoomDetails.Designer.cs">
+      <DependentUpon>FRM_RoomDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RoomManagment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RoomManagment.Designer.cs">
+      <DependentUpon>FRM_RoomManagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_RoomStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_RoomStatus.Designer.cs">
+      <DependentUpon>FRM_RoomStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_SignIn.Designer.cs">
+      <DependentUpon>FRM_SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_TenantManagment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_TenantManagment.Designer.cs">
+      <DependentUpon>FRM_TenantManagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_TenantWithNet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_TenantWithNet.Designer.cs">
+      <DependentUpon>FRM_TenantWithNet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RFM_Motor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RFM_Motor.Designer.cs">
+      <DependentUpon>RFM_Motor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FRM_About.resx">
+      <DependentUpon>FRM_About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_addTenantForRoom.resx">
+      <DependentUpon>FRM_addTenantForRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_BillReports.resx">
+      <DependentUpon>FRM_BillReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_BlackList.resx">
+      <DependentUpon>FRM_BlackList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_BlackListManag.resx">
+      <DependentUpon>FRM_BlackListManag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_CatchMoneyRoom.resx">
+      <DependentUpon>FRM_CatchMoneyRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_ChangePassword.resx">
+      <DependentUpon>FRM_ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_ElecBillPay.resx">
+      <DependentUpon>FRM_ElecBillPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_LeaveRoom.resx">
+      <DependentUpon>FRM_LeaveRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Main.resx">
+      <DependentUpon>FRM_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_NewReservation.resx">
+      <DependentUpon>FRM_NewReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_NewRoom.resx">
+      <DependentUpon>FRM_NewRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_NewTenant.resx">
+      <DependentUpon>FRM_NewTenant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Other.resx">
+      <DependentUpon>FRM_Other.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RDetails.resx">
+      <DependentUpon>FRM_RDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RepEndDecade.resx">
+      <DependentUpon>FRM_RepEndDecade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RepMotor.resx">
+      <DependentUpon>FRM_RepMotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RepOther.resx">
+      <DependentUpon>FRM_RepOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RepRoomWithTen.resx">
+      <DependentUpon>FRM_RepRoomWithTen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RepTenantInFoyer.resx">
+      <DependentUpon>FRM_RepTenantInFoyer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RepTenRoom.resx">
+      <DependentUpon>FRM_RepTenRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RoomDetails.resx">
+      <DependentUpon>FRM_RoomDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RoomManagment.resx">
+      <DependentUpon>FRM_RoomManagment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_RoomStatus.resx">
+      <DependentUpon>FRM_RoomStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_SignIn.resx">
+      <DependentUpon>FRM_SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_TenantManagment.resx">
+      <DependentUpon>FRM_TenantManagment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_TenantWithNet.resx">
+      <DependentUpon>FRM_TenantWithNet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RFM_Motor.resx">
+      <DependentUpon>RFM_Motor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.ico" />
+    <None Include="Resources\main.png" />
+    <None Include="Resources\About.png" />
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
